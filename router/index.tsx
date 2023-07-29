@@ -1,13 +1,14 @@
-import React, { Suspense, Fragment } from 'react';
-import { connect } from 'react-redux';
-import { Router, Route, Switch, RouteProps } from 'react-router-dom';
-import { history } from '../redux/store';
-import Fallback from '../components/common/fallback';
+import  { Suspense, Fragment } from 'react'
+import { connect } from 'react-redux'
+import { Router, Route, Switch, RouteProps } from 'react-router-dom'
+import { history } from '../redux/store'
+import Fallback from '../components/common/fallback'
 import { IRootReducer } from '../redux/reducers/state';
 import { IAuth } from '../types/auth';
 import 'antd/dist/antd.css';
+import React = require('react')
 
-const mainScreen = React.lazy(() => import('../pages/mainScreen'));
+const mainScreen = React.lazy(() => import('../pages/mainScreen'))
 const LoginPage = React.lazy(() => import('../pages/authMe/logIn');
 const SignUpPage = React.lazy(() => import('../pages/authMe/signUp'));
 

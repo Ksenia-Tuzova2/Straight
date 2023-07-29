@@ -1,0 +1,5 @@
+ current tasks are here!
+
+ now design in development:
+ need to make design 
+ and code pages for authorization and registration tommorow
